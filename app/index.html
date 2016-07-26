@@ -17,8 +17,9 @@
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/scroll.css">
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
@@ -27,41 +28,31 @@
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">resume new</h3>
-      </div>
 
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-          
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
-          
-        </div>
-      </div>
-
-      <div class="footer">
-        <p>♥ from the Yeoman team</p>
+    <div class="layer" id="back"></div>
+    <div class="layer" id="middle-fir"></div>
+    <div class="layer" id="middle-sec"></div>
+    <div class="layer" id="middle-thi"></div>
+    <div class="layer" id="middle-for"></div>
+    <div class="layer" id="front"></div>
+    <div class="content" id="resume">
+      <div class="self-intro">
+        <h1 class="h1">Echaoo</h1><br/>
+        <h3 class="intro-widom">世界因技术而精彩</h3><br/>
+        <h3><span class="me">我</span>&nbsp;&nbsp;的简介</h3>
+        <p class="items">我叫张梦珂 成长在中国石油大学 本科生</p>
+        <p class="items">希望找一份前端开发的工作</p>
+        <p class="intro-me">Phone:17010058246</p>
+        <p class="intro-me">Email:1299529160@qq.com</p><br/><br/><br/>
+        <h3>我的小项目</h3><br/>
+        <p class="items"><a href="http://echaoo.zhangmengke.cn/">店尚企业网站</a>在公司实习时做的网站</p>
+        <p class="items"><a href="http://attend.zhangmengke.cn/#/login">公司考勤系统</a>在公司实习时给公司做的考勤系统，自己设计功能和需求</p>
+        <p class="items"><a href="http://www.drangela-toyo.com/">天瑜企业网站</a></p><br/><br/>
+        <p class="intro-me"><span>了解更多：</span><a href="resume-echaoo.pdf">下载简历</a></p>
+        <p class="intro-me">我的Github地址：<a href="https://github.com/echaoo">https://github.com/echaoo</a></p>
       </div>
     </div>
-    
+
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -77,7 +68,7 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/plugins.js -->
     <script src="/bower_components/bootstrap/js/affix.js"></script>
     <script src="/bower_components/bootstrap/js/alert.js"></script>
@@ -92,7 +83,7 @@
     <script src="/bower_components/bootstrap/js/collapse.js"></script>
     <script src="/bower_components/bootstrap/js/tab.js"></script>
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->

@@ -5,85 +5,81 @@
   padding: 0.2em 0;
 }
 
+body{
+  padding: 0;
+  margin: 0;
+}
+
 /* Space out content a bit */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  font-family: 微软雅黑, serif;
+  color: #8B8386;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
+p {
+  margin: 20px
 }
 
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
-}
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
+#resume {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
 }
 
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+.content{
+  height: 100vh;
+  overflow: auto;
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
+.self-intro {
+  width: 70%;
+  margin-top: 14%;
+  text-align: center;
+  margin-left: 15%;
 }
 
-.marketing p + h4 {
-  margin-top: 28px;
+.me {
+  font-size: 35px;
+  color: #EEA2AD;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
+.intro-me {
+  letter-spacing: 3px;
+  font-size: 16px;
+  background-color: rgba(255, 250, 250, 0.7);
+}
+
+.h1 {
+  color: #8B8386;
+  font-size: 40px;
+}
+
+.intro-widom {
+  letter-spacing: 10px;
+}
+
+.items {
+  letter-spacing: 10px;
+  font-size: 16px;
+  background-color: rgba(255, 250, 250, 0.7);
+}
+
+.content{
+  position: relative;
+}
+
+@media screen and (max-width: 769px){
+  .h1 {
+    font-size: 30px;
   }
 
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
+  .intro-widom {
+    font-size: 16px;
   }
 
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
+  .items {
+    font-size: 14px;
   }
 
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
+  .intro-me {
+    font-size: 13px;
   }
 }
